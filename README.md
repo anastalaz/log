@@ -37,4 +37,6 @@ func main() {
 
 If log.Debugger is not set debug logs will not print
 
+## License
 
+MIT
