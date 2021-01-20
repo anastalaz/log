@@ -25,7 +25,7 @@ func main() {
 	log.Debugger = true
 
 	log.Info("App initialized")
-	log.Debug("Some info")
+	log.Debug("Some", "info", "for you")
 
 	err := errors.New("Something bad happened")
 	if err != nil {
