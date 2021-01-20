@@ -5,7 +5,7 @@ code.
 
 ## Info
 
-The package implements 3 loggers with Lshorfile set for easier debugging:
+The package implements 3 loggers with Lshortfile set for easier debugging:
 
 - log.Info - Color: green - Output: stdout
 - log.Debug - Color: cyan - Output: stdout
@@ -33,9 +33,10 @@ func main() {
 	}
 }
 ```
-![](_example/terminal.png)
 
-If log.Debugger is not set debug logs will not print
+![output](_example/terminal.png)
+
+NOTICE: If log.Debugger is not set debug logs will not print
 
 ## License
 
